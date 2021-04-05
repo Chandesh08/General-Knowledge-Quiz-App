@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HighScoreActivity"
+    android:background="@drawable/highscore"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/high"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="450dp">
+
+        <TextView
+            android:id="@+id/highscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Setting Page"
+            android:textColor="#000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
